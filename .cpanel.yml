@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/qfpuksur/public_html/sakaradesigns/
+    - /bin/cp *.* $DEPLOYPATH
+    
