@@ -2,5 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/qfpuksur/public_html/sakaradesigns/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R Doc $DEPLOYPATH
     - /bin/cp *.* $DEPLOYPATH
     
